@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="style.css"> <!-- Linking CSS -->
+</head>
+<body>
+    <header>
+        <h1> Understanding the Soil Erosion </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="causes.html">Causes</a></li>
+                <li><a href="effects.html">Effects</a></li>
+                <li><a href="prevention.html">Prevention</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>We Value Your Feedback</h2>
+        <form action="https://formspree.io/f/xzzbrjzk" method="POST">
+            <label for="rating">How would you rate this website?</label>
+            <select id="rating" name="rating" required>
+                <option value="5">Excellent</option>
+                <option value="4">Good</option>
+                <option value="3">Average</option>
+                <option value="2">Below Average</option>
+                <option value="1">Poor</option>
+            </select>
+
+            <label for="feedback">Your Comments:</label>
+            <textarea id="feedback" name="feedback" rows="5" required></textarea>
+
+            <input type="submit" value="Submit Feedback">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Soil Erosion. All rights reserved.</p>
+    </footer>
+</body>
+</html>
